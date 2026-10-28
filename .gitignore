@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+wheels/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment and secrets — NEVER commit API keys
+.env
+config.env
+*.env
+secrets.json
+
+# Vector store — auto-generated at runtime
+chroma_db/
+test_chroma_db/
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.suo
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test_*.py
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# HuggingFace model cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.orig
